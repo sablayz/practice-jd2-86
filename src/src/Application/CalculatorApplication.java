@@ -1,3 +1,4 @@
+package Application;
 
 import java.util.Scanner;
 
@@ -5,7 +6,6 @@ public class CalculatorApplication {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         Scanner scan = new Scanner(System.in);
-
         for (; ; ) {
             System.out.println("Меню" + "\n" + "1.Сложение  2.Вычитание  3.Умножение 4.Деление" + "\n"
                     + "Введите 'End' для выхода");
@@ -39,4 +39,5 @@ public class CalculatorApplication {
 
         }
     }
+
 }
